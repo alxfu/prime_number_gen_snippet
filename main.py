@@ -146,6 +146,7 @@ if __name__ == "__main__":
 
         print('Generated random prime number: ', randomPrime)
         print('next one coming up in a while')
+        print('you may need to get some coffee in between')
 
         time.sleep(random.randint(600, 1200))
 
