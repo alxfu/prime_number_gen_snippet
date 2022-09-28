@@ -1,6 +1,10 @@
 # coding: utf-8
 
-# thanks for trying my random prime number script
+# thanks for trying my random prime number script / snippet
+# no credits so far
+#
+# ToDo: remove some old code from previous project
+#
 
 import ctypes
 from ctypes import wintypes
@@ -22,13 +26,15 @@ KEYEVENTF_SCANCODE    = 0x0008
 
 MAPVK_VK_TO_VSC = 0
 
-# msdn.microsoft.com/en-us/library/
+# msdn.microsoft.com
+# /en-us/library/
 # dd375731
 
 VK_TAB  = 0x09
 VK_MENU = 0x12
 
 # C struct definitions
+# prime gen see below
 
 wintypes.ULONG_PTR = wintypes.WPARAM
 
@@ -139,6 +145,7 @@ if __name__ == "__main__":
         time.sleep(round(random.uniform(2.01, 4.99), 2))
 
         print('Generated random prime number: ', randomPrime)
+        print('next one coming up in a while')
 
         time.sleep(random.randint(600, 1200))
 
