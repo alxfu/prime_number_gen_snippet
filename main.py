@@ -102,7 +102,7 @@ def primesInRange(x, y):
     return prime_list
 
 
-prime_list = primesInRange(2, 20)
+prime_list = primesInRange(2, 1001)
 randomPrime = random.choice(prime_list)
 
 
@@ -148,7 +148,5 @@ if __name__ == "__main__":
         print('next one coming up in a while')
         print('you may need to get some coffee in between')
 
-        time.sleep(random.randint(600, 1200))
-
-
+        time.sleep(random.randint(400, 1100))
 
